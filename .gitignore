@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets / local config
+.env
+
+# Agent sandbox (created at runtime)
+workspace/
+
+# OS
+.DS_Store

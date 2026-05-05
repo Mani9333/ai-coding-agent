@@ -1,0 +1,10 @@
+[project]
+name = "ai-coding-agent"
+version = "0.1.0"
+description = "A small, readable coding agent (LangGraph think/act loop) that runs offline or against real LLMs."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
